@@ -17,6 +17,8 @@ pre .lisp .string,
 pre .javadoc {
   color: #586e75;
   font-style: italic;
+  display: inline-block;
+  line-height: 1em;
 }
 
 pre .keyword,
@@ -95,4 +97,8 @@ pre .deletion {
 pre .tex .formula,
 pre .code {
   background: #073642;
+}
+
+.line.highlight {
+  background-color: #004A5E;
 }
